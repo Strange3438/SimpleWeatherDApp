@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather DApp</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+
+    <h1>Weather Report</h1>
+    <div id="data">
+
+      <div>
+        <label for="city">Enter the location</label>
+        <input
+          type="text"
+          id="city"
+          placeholder="Enter the city name"
+          required
+        />
+      </div>
+
+      <button id="submitButton">Search</button>
+
+      <div id="WeatherInfo"></div>
+    </div>
+
+    <script src="updateData.js"></script>
+  </body>
+</html>
