@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
       weatherData.innerHTML = weatherContent;
     } catch (error) {
       console.error("Error:", error);
-      weatherData.innerHTML = "<p>Error fetching the Weather Data!!</p><p>Please enter a valid city name...</p>";
+      weatherData.innerHTML = "<p>Error fetching the Weather Data!!</p><p>Please enter a valid city name or try connecting with a valid Ethereum account with sufficient balance...</p>";
       weatherData.style.display = "block";
     }
   });
